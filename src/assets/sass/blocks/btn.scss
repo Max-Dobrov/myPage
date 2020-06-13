@@ -1,0 +1,32 @@
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1rem 2rem;
+
+    background: none;
+    border: 0;
+    border-radius: $radius_small;
+    cursor: pointer;
+
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.1;
+    color: $black;
+    text-decoration: none;
+
+    transition-duration: 0.3s;
+
+    &--pink {
+        border: 2px solid $pink;
+
+        &:hover {
+            background-color: $pink;
+
+            color: $white;
+        }
+    }
+
+
+
+}

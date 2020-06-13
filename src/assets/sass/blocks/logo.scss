@@ -1,0 +1,22 @@
+.logo {
+
+    @media (max-width: $breakpoint-xl) {
+        display: none;
+    }
+
+}
+
+.logo__link {
+    color: $black;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+
+    @media (max-width: $breakpoint-xl) {
+        font-size: 4rem;
+    }
+}
+
+.logo__prefix {
+    color: $pink;
+}

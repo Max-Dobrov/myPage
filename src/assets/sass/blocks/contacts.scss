@@ -1,0 +1,35 @@
+.contacts {
+    margin: 1rem 0 0;
+    padding: 0;
+
+    list-style: none;
+
+    &--modal {
+        margin-top: 0.3rem;
+    }
+
+}
+
+.contacts__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2rem;
+
+    .contacts--modal & {
+        display: block;
+    }
+
+    & .contacts__link {
+        color: $black;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+
+    @media (max-width: $breakpoint-lg) {
+        margin-top: 2rem;
+    }
+}
